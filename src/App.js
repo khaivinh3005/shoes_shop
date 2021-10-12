@@ -1,10 +1,13 @@
 import './App.css';
-import BaiTapChonKinh from './BaiTapChonKinh/BaiTapChonKinh';
+import ExerciseCart from './Props/BTCart/ExerciseCart';
+import ShoesStore from './Props/ShoesStore/ShoesStore';
+// import BTXemChiTiet from './BTXemChiTiet/BTXemChiTiet';
+
 
 function App() {
   return (
     <div className="App">
-        <BaiTapChonKinh />
+      <ShoesStore />
     </div>
   );
 }

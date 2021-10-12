@@ -24,7 +24,7 @@ export default class BaiTapChonKinh extends Component {
            <div class="glassesForBg">
                <Header />
                <Body glass = {this.state.img} />
-               <Footer clickGlass={this.clickGlass} dataGlasses = {dataGlasses} />
+               <Footer clickGlass={this.clickGlass} dataGlasses={dataGlasses} />
                <Modal mang={this.state.mang}/>
            </div>
         )
